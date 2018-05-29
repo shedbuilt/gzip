@@ -5,7 +5,7 @@ SHED_PKG_LOCAL_PREFIX='/usr'
 if [ -n "${SHED_PKG_LOCAL_OPTIONS[toolchain]}" ]; then
     SHED_PKG_LOCAL_PREFIX='/tools'
 fi
-./configure --prefix=$SHED_PKG_PREFIX &&
+./configure --prefix=$SHED_PKG_LOCAL_PREFIX &&
 
 # Build and Install
 make -j $SHED_NUM_JOBS &&
