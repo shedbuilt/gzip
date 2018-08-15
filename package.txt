@@ -1,7 +1,7 @@
 NAME=gzip
 VERSION=1.9
 REVISION=2
-SRC=http://ftp.gnu.org/gnu/gzip/gzip-1.9.tar.xz
+SRC=http://mirrors.kernel.org/gnu/gzip/gzip-1.9.tar.xz
 SRCMD5=9492c6ccb2239ff679a5475a7bb543ed
 OPTIONS=toolchain|bootstrap|release
 DEFAULTS=release
